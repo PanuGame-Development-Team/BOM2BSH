@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>810</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <widget class="QProgressBar" name="progress">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>540</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>750</width>
+     <height>270</height>
+    </rect>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>CAD-REF</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MATERIALNUMBER</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DESIGNATION</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>AMOUNT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>REVISION</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MOUNTING</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="infile">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>690</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>输入文件</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="outfile">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>690</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>输出文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="infileb">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>30</y>
+     <width>60</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="outfileb">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>80</y>
+     <width>60</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="load">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>130</y>
+     <width>60</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>加载</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>130</y>
+     <width>60</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="autogen">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>130</y>
+     <width>60</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>自动</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
