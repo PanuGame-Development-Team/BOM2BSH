@@ -1,6 +1,6 @@
 #ifndef SETTINGS_H
 #define SETTINGS_H
 
-#define VERSION "2.0.0-241215-beta"
+#define VERSION "2.0.1-250501-RC1"
 
 #endif // SETTINGS_H

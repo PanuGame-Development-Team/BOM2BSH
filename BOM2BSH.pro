@@ -24,8 +24,14 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-unix:!macx: LIBS += -L$$PWD/./ -lOpenXLSX
+# unix:!macx: LIBS += -L$$PWD/./ -lOpenXLSX
 
-INCLUDEPATH += /usr/local/include/OpenXLSX
-DEPENDPATH += /usr/local/include/OpenXLSX
+# INCLUDEPATH += /usr/local/include/OpenXLSX
+# DEPENDPATH += /usr/local/include/OpenXLSX
+
 QMAKE_CXXFLAGS += -w
+
+unix: LIBS += -L/programs/Lib/XLNT/xlnt/build/source/ -lxlnt
+
+INCLUDEPATH += /usr/local/include
+DEPENDPATH += /usr/local/include
